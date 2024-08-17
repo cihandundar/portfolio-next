@@ -3,12 +3,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid #fff;
   border-radius: 10px;
-  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 20px;
-  box-shadow: rgba(46, 159, 240, 0.4) 5px 5px,
-    rgba(46, 195, 240, 0.518) 10px 10px, rgba(4, 243, 231, 0.2) 15px 15px;
   height: 300px;
   transition: all 0.3s ease-in-out;
   &:hover {

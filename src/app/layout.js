@@ -1,6 +1,6 @@
 import { Barlow_Condensed } from "next/font/google";
 import "./globals.scss";
-import SideBar from "@/components/sidebar/SideBar";
+import Navbar from "@/components/navbar/Navbar";
 
 const inter = Barlow_Condensed({
   subsets: ["latin"],
@@ -16,10 +16,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="container">
-          <SideBar />
-          {children}
-        </div>
+        <Navbar />
+        {children}
       </body>
     </html>
   );

@@ -105,11 +105,15 @@ export const projects = [
         image: "/react.png",
       },
       {
+        id: 3,
+        image: "/redux.png",
+      },
+      {
         id: 2,
         image: "/scss.png",
       },
       {
-        id: 3,
+        id: 4,
         image: "/firebase.png",
       },
     ],
