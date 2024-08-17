@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    name: "E-Commerce Context API",
+    title: "E-Commerce Context API",
     image: "/shopping.jpg",
     technologies: [
       {
@@ -13,10 +13,11 @@ export const projects = [
         image: "/scss.png",
       },
     ],
+    url: "https://github.com/cihandundar/react-context-add-to-cart",
   },
   {
     id: 2,
-    name: "Admin Dashboard",
+    title: "Admin Dashboard",
     image: "/admin.jpg",
     technologies: [
       {
@@ -36,10 +37,11 @@ export const projects = [
         image: "/firebase.png",
       },
     ],
+    url: "https://github.com/cihandundar/react-dashboard",
   },
   {
     id: 3,
-    name: "Crypto Tracker",
+    title: "Crypto Tracker",
     image: "/kripto.jpg",
     technologies: [
       {
@@ -55,10 +57,11 @@ export const projects = [
         image: "/redux.png",
       },
     ],
+    url: "https://github.com/cihandundar/crypto-tracker-fe",
   },
   {
     id: 4,
-    name: "Vue - Shopping Cart",
+    title: "Vue - Shopping Cart",
     image: "/vue-shopping.jpg",
     technologies: [
       {
@@ -70,10 +73,11 @@ export const projects = [
         image: "/scss.png",
       },
     ],
+    url: "https://github.com/cihandundar/vue-add-to-cart",
   },
   {
     id: 5,
-    name: "League of Legends ",
+    title: "League of Legends ",
     image: "/lol.jpg",
     technologies: [
       {
@@ -89,10 +93,11 @@ export const projects = [
         image: "/javascript.png",
       },
     ],
+    url: "https://github.com/cihandundar/League-of-Legends",
   },
   {
     id: 5,
-    name: "CRUD Operations",
+    title: "CRUD Operations",
     image: "/blog.jpg",
     technologies: [
       {
@@ -108,5 +113,6 @@ export const projects = [
         image: "/firebase.png",
       },
     ],
+    url: "https://github.com/cihandundar/react-blog",
   },
 ];

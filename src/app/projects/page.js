@@ -1,23 +1,18 @@
-import React from "react";
+import "./projects.scss";
 import { projects } from "../../data/Project";
+import Card from "@/components/card/Card";
 const Projects = () => {
   return (
-    <section>
-      <div>
-        <h1>Projects</h1>
-        <div>
-          {projects.map((project) => (
-            <div className="project" key={project.id}>
-              <img src={project.image} alt={project.name} />
-              <h2>{project.name}</h2>
-              <div className="technologies">
-                {project.technologies.map((tech) => (
-                  <img src={tech.image} alt={tech.id} />
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
+    <section className="projects">
+      <h1>Projects</h1>
+      <div className="projects__container">
+        {projects.map((project) => (
+          <Card
+            key={project.id}
+            project={project}
+            tecnologies={project.technologies}
+          />
+        ))}
       </div>
     </section>
   );
