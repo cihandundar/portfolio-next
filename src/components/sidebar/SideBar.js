@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./sidebar.scss";
 const SideBar = () => {
   return (
@@ -7,6 +8,11 @@ const SideBar = () => {
         <span>Cihan Dündar</span>
         <p>Junior Frontend Developer</p>
       </div>
+      <ul className="links">
+        <li>
+          <Link href="/projects">Projeler</Link>
+        </li>
+      </ul>
     </aside>
   );
 };
