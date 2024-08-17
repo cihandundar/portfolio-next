@@ -1,7 +1,10 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
+import { Barlow_Condensed } from "next/font/google";
+import "./globals.scss";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Barlow_Condensed({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 
 export const metadata = {
   title: "Create Next App",
