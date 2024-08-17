@@ -4,7 +4,7 @@ import Card from "@/components/card/Card";
 const Projects = () => {
   return (
     <section className="projects">
-      <h1>Projects</h1>
+      <span>Projects</span>
       <div className="projects__container">
         {projects.map((project) => (
           <Card

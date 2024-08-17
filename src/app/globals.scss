@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #0f2027;
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  color: #fff;
+}
+
 a {
   text-decoration: none;
   color: #000;
