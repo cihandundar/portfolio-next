@@ -19,7 +19,7 @@ const Hero = () => {
               "I'm a self-taught Frontend Developer who builds interfaces for
               users to have great experiences,trying to improve myself on the
               <br />
-              web since December 2021 and enjoying it!",
+              web since December 2021 and enjoying it!"
             </p>
           </div>
         </div>
