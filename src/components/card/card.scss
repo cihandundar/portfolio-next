@@ -7,6 +7,9 @@
   border-radius: 10px;
   overflow: hidden;
   padding: 20px;
+  box-shadow: rgba(46, 159, 240, 0.4) 5px 5px,
+    rgba(46, 195, 240, 0.518) 10px 10px, rgba(4, 243, 231, 0.2) 15px 15px,
+    rgba(1, 163, 238, 0.418) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
   height: 300px;
   &__image {
     width: 300px;
