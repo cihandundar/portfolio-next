@@ -1,5 +1,6 @@
 import "./skills.scss";
 import { skills } from "../../data/Skills";
+
 const Skills = () => {
   return (
     <section className="skills">
