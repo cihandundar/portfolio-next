@@ -1,16 +1,6 @@
-"use client";
 import Hero from "@/components/hero/Hero";
 import "@/styles/main.scss";
 export default function Home() {
-  const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href =
-      "https://drive.google.com/uc?export=download&id=1z9gXOAULGTkAIsSW26IRgpTyce7hj2us";
-    link.download = "MyCV.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
   return (
     <main>
       <Hero />
@@ -25,9 +15,14 @@ export default function Home() {
       <section>
         <span>Contact</span>
 
-        <button onClick={handleDownload}>Download CV</button>
+        <a
+          href="https://drive.google.com/file/d/1z9gXOAULGTkAIsSW26IRgpTyce7hj2us/view?usp=drive_link"
+          target="_blank"
+        >
+          <button>CV</button>
+        </a>
         <a href="mailto:dundarcihan97@hotmail.com">
-          <button>Send me an email</button>
+          <button>Email</button>
         </a>
         <a href="https://github.com/cihandundar" target="_blank">
           <button>Github</button>
