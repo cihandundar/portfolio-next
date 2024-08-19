@@ -1,10 +1,12 @@
+"use client";
+import { skills } from "@/data/Skills";
 import "./skills.scss";
-import { skills } from "../../data/Skills";
+import { TypeAnimation } from "react-type-animation";
 
 const Skills = () => {
   return (
     <section className="skills">
-      <span>Skills</span>
+      <TypeAnimation sequence={["SKILLS"]} wrapper="span" speed={20} />
       <div className="wrapper">
         {skills.map((skill, index) => (
           <div key={index} className="skills__item">

@@ -10,6 +10,10 @@ const Links = () => {
       title: "Projects",
       path: "/projects",
     },
+    {
+      title: "Skills",
+      path: "/skills",
+    },
   ];
   return (
     <ul>
