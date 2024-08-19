@@ -13,6 +13,7 @@
     align-items: center;
     margin-top: 30px;
     padding: 20px;
+    width: 150px;
     border-radius: 10px;
     background-color: white;
     transition: all 0.3s ease-in-out;
@@ -21,12 +22,13 @@
       transform: translateY(-10px);
     }
     > img {
-      width: 122px;
+      width: 100px;
       height: 100px;
       object-fit: contain;
     }
     > span {
-      font-size: 1.5rem;
+      padding-top: 10px;
+      font-size: 1.2rem;
       color: #000;
       font-weight: bold;
     }
